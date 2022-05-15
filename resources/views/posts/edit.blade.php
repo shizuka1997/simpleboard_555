@@ -18,7 +18,7 @@
     <button type="submit" class="btn btn-outline-primary">Submit</button>
 </form>
 
-<a href="/posts/{{ $post->id }}">Show</a>
+<a href="/posts/{{ $post->id }}">Show</a> | 
 <a href="/posts">Back</a>
 
 @endsection

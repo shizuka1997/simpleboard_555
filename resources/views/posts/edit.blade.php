@@ -1,5 +1,7 @@
 @extends('layouts.layouts')
+
 @section('title', 'Simple Board')
+
 @section('content')
 
 <h1>Editing Post</h1>

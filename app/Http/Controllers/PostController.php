@@ -39,6 +39,10 @@ class PostController extends Controller
         $request->validate([
             'title' => 'required',
             'content' => 'required',
+
+            'title.required' => 'タイトルは必須です。',
+            'content.required'  => 'コメントは必須です。',
+
         ]);
 
         $post = new Post();

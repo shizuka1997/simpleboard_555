@@ -29,6 +29,6 @@
     <button type="submit" class="btn btn-outline-primary">送信</button>
 </form>
 
-<a href="/posts">Back</a>
+<a href="/posts">戻る</a>
 
 @endsection
